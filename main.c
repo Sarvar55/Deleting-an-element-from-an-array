@@ -27,7 +27,7 @@ int main()
 {
 
     int size,index;
-    printf("Kac Adet Sayi Uretilecek : ");
+    printf("How Many Will Be Produced?: ");
     scanf("%d",&size);
     int array[size];
     srand(time(0));
@@ -38,7 +38,7 @@ int main()
 
     }
     printf("\n\n");
-    printf("Diziden Silinecek Degerin Sira No'sunu Giriniz : ");
+    printf("Enter the Sequence Number of the Value to be deleted from the array: ");
     scanf("%d", &index);
     ArrayItemDel(array,index - 1,size);
 
